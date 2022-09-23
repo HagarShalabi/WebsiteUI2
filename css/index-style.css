@@ -1,0 +1,447 @@
+*{ /*All= Selector*/
+    box-sizing: border-box; /*Border size is in the box itself*/ 
+    padding: 0;
+    margin:0;
+    font-family: 'Ibarra Real Nova', serif;
+    /* font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Condensed', sans-serif; */
+}
+
+.bar{
+    color: rgb(227, 174, 77);
+    background-color: white;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 5vh;
+    width: 5vh;
+    height: 5vh;
+    display: flex;
+    padding: 30px 30px 50px 30px;
+}
+
+.bar img{
+    width: 6vh;
+    height:5vh;
+    padding-top: 0.3vh;
+    position: absolute; 
+    right: 2%;
+    opacity: 0.65;
+}
+
+.first{
+    background-color: black;
+    width: 100%;
+    height: 90vh;
+    /* padding: 100px 100px 150px 50px;  */
+    padding: 30px 30px 50px 30px;
+    color: white;
+}
+
+.first img{
+    float: left; 
+    padding-right: 3.6vh;
+    width:  60vh;
+    height: 70vh;
+    display: flex;
+} 
+
+
+.first section{
+    background-color: orange;
+    padding-bottom: 9vh;
+    margin: 2vh 5vh;
+    word-spacing: 1vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.first section button{
+    color: #ffa500;
+    background-color: white;
+    border: none;
+    margin: 4px 2px;
+    padding: 16px 32px ;
+}
+
+.first section button:hover{
+    background-color: #da9006;
+
+}
+
+.first section h4{
+    font-size: 1.5em;
+    margin-left: 4vh;
+    margin-right: 3vh;;
+}
+
+.first section h1{
+    font-size: 3.5em;
+    margin-left: 4vh;
+    margin-right: 6vh;;
+}
+
+.first section h4{
+    font-size: 1.5em;
+}
+
+.first section div{
+    padding-top: 10vh;
+}
+
+.second{
+    background-color: rgb(201, 187, 187);
+    width: 100%;
+    height: 90vh; 
+    padding: 30px 50px 50px 50px;
+    color: black;
+}
+.second section img{
+    float: right; 
+    /* padding-right: 3.6vh; */
+    width: 80vh;
+    height: 66vh;
+    display: flex;
+} 
+.second section div img{
+    float: left; 
+    /* padding-right: 3.6vh; */
+    width:  20vh;
+    height: 25vh;
+    display: flex;
+    position: absolute;
+    bottom: -38vh;
+    left: 50vh;
+} 
+.second section{
+    background-color: white;
+    padding-bottom: 5vh;
+    margin: 2vh 3vh;
+    word-spacing: 1vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    flex-direction: column;
+} 
+
+.second section button{
+    color: #ffa500;
+    background-color: white;
+    border: none;
+    margin: 4px 2px;
+    padding: 16px 32px ;
+    padding-left: 36vh;
+}
+.second section h1{
+    font-size: 2em;
+    padding-left: 10vh;
+    padding-top: 15vh;
+
+}
+
+.second section h4{
+    font-size: 1em;
+    padding-left: 10vh;
+}
+
+.second section div{
+    padding-top: 10vh;
+}
+
+.third{
+    background-color: orange;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+}
+
+.third h1{
+  text-align: center;
+  font-size: 2em;
+}
+
+.column{
+  float: left;
+  width: 33.3%;
+  padding: 15px;
+}
+
+.column img{
+    width: "200";
+    height: "100";
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .fourth{
+    display: block;
+    background-color: rgb(237, 231, 231);
+    width: 80vh;
+    height: 35vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+  }
+
+  .fourth section{
+    text-align: left;
+    position: absolute;
+     /*Position- Absolute= Relative to others, Position- Relative= Relative to itself*/
+    opacity: 0.7;
+    margin-top: 3vh;
+    word-spacing: 0.3em;
+    bottom: -75em;
+  }
+
+  .fifth{
+    background-color: white;
+    width: 100%;
+    height: 110vh;
+    margin-top: -19vh;
+    margin-bottom: 20vh;
+  }
+
+  .fifth .one img{
+    float: right; 
+    padding-right: 3.6vh;
+    width:  100vh;
+    height: 70vh;
+    display: flex;
+  }
+
+  .fifth .one button{
+    color: white;
+    background-color: rgb(163, 182, 230);
+    border: none;
+    margin: 4px 2px;
+    padding: 16px 32px ;
+    margin-left: 75vh;
+    font-weight: bolder;
+  }
+  .fifth .one button :hover{
+    background-color: rgb(141, 155, 193);
+  }
+
+  .fifth .one h4{
+    font-size: 2.5em;
+    margin-left: 25vh;
+    margin-top: 27vh;
+    font-weight: lighter;
+    color: rgb(50, 48, 48);
+    padding-top: 20vh;
+  }
+  .fifth .two{
+    padding-top: 10vh;
+    padding-left: 5vh;
+  }
+
+  .fifth .two img{
+    float: left; 
+    padding-left: 3.6vh;
+    width:  100vh;
+    height: 70vh;
+    display: flex;
+  }
+
+  .fifth .two h3{
+    font-size: 3em;
+    font-weight: lighter;
+    margin-left: 25vh;
+    color: rgb(50, 48, 48);
+    padding-top: 30vh;
+    padding-left: 80vh;
+  }
+
+  .fifth .two h4{
+    font-size: 1em;
+    font-style: italic;
+    font-weight: lighter;
+    color: rgb(50, 48, 48);
+    padding-left: 105vh;
+  }
+
+  .sixth{
+    background-color: #da9006;
+    width: 100%;
+    height: 45vh;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  .sixth .rect{
+    float: left;
+    width: 5vh;
+    height: 30vh;
+    margin-left: 15vh;
+    background-color: white;
+    margin-top: 5vh;
+  }
+
+  .sixth h2{
+    color: white;
+    font-size: 2em;
+    margin-left: 20vh;
+    margin-top: 12vh;
+  }
+
+  .sixth p{
+    color: white;
+    font-size: 1em;
+    margin-left: 20vh;
+    margin-right: 40vh;
+  }
+
+  .seventh{
+    background-color: white;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+  }
+
+  .seventh .one img{
+    float: left;
+    width: 90vh;
+    height: 100vh;
+    margin-left: 10vh;
+    margin-right: 5vh;
+  }
+
+  .seventh h2{
+    position: relative;
+    font-size: 3em;
+    font-weight: lighter;
+    word-spacing: 3px;
+    color: rgb(87, 86, 86);
+    padding-bottom: 3vh;
+  }
+
+  .seventh h4{
+    position: relative;
+    font-size: 1.2em;
+    font-weight: lighter;
+    word-spacing: 3px;
+    color: rgb(87, 86, 86);
+    margin-right: 10vh;
+  }
+
+  .seventh .two img{
+    width: 100vh;
+    height: 70vh;
+    padding-top: 3vh;
+  }
+  
+  .eighth{
+    width: 100%;
+    height: 50vh;
+    color: black;
+    background-color: #98c2ec;
+    margin-top: 15vh;
+    padding-left: 20vh;
+    padding-top: 10vh;
+  }
+
+
+  .eighth .one h2{
+    font-weight: lighter;
+    word-spacing: 3px;
+    color: rgb(87, 86, 86);
+    font-size: 2em;
+  }
+
+  .eighth .one h4{
+    font-weight: lighter;
+    word-spacing: 3px;
+    color: rgb(87, 86, 86);
+    font-size: 1em;
+  }
+
+  .eighth .two form{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+  }
+
+  .eighth .two input{
+    vertical-align: middle;
+    margin: 20px 20px 20px 0;
+    padding: 10px;
+    padding-left: 30px;
+    border: 1px solid grey;
+    background-color: #98c2ec;
+    width: 70vh;
+    border-radius: 3px;
+    height: 8vh;
+  }
+
+  .eighth .two button{
+  padding: 10px 20px;
+  background-color: orange;
+  border: 1px solid orange;
+  color: white;
+  border-radius: 3px;
+  width: 20vh;
+  height: 8vh;
+  font-size: bold;
+  }
+
+.ninth{
+  width: 100%;
+  height: 25vh;
+  background-color: rgb(61, 61, 84);
+  color: wheat;
+  font-size: 1em;
+}
+
+.ninth .leftbox {
+  float:left; 
+  width:25%;
+  height:105px;
+  padding-left: 20vh;
+  padding-top: 5vh;
+}
+.ninth .middlebox{
+  float:left; 
+  width:50%;
+  height:105px;
+  padding-left: 40vh;
+  padding-top: 5vh;
+}
+.ninth .rightbox{
+  float:right;
+  width:25%;
+  height:105px;
+  padding-top: 5vh;
+}
+
+.ninth img {
+  width: 20px;
+  height:20px;
+  display: inline;
+}
+
+.ninth div{
+  padding-left: 100vh;
+  background-color: rgb(61, 61, 84);
+  margin-bottom: 20vh;
+}
+
+.tenth{
+  color: wheat;
+  background-color: rgb(79, 77, 33);
+  width: 100%;
+  height: 10vh;
+  font-size: 1em;
+  text-align: center;
+  padding-top: 4vh;
+}
